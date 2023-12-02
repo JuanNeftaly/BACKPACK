@@ -8,7 +8,7 @@ export const Services = () => {
                 <div className="box box-1">
 
                     <div className="image-container">
-                        <img src="../../public/images/campana.png" />
+                        <img src="/images/campana.png" />
                     </div>
 
                     <div className="text-container">
@@ -20,7 +20,7 @@ export const Services = () => {
                 <div className="box box-2">
 
                     <div className="image-container">
-                        <img src="../../public/images/organiza.png" />
+                        <img src="/images/organiza.png" />
                     </div>
 
                     <div className="text-container">
@@ -32,7 +32,7 @@ export const Services = () => {
                 <div className="box box-3">
 
                     <div className="image-container">
-                        <img src="../../public/images/bocina.png" />
+                        <img src="/images/bocina.png" />
                     </div>
 
                     <div className="text-container">
@@ -45,16 +45,16 @@ export const Services = () => {
 
 
             {/* Imagenes para jugar*/}
-            <img src='../../public/images/fondo-services.png' className='fondo' />
-            <img src='../../public/images/pelota-rosada.png' className='pink-ball' />
-            <img src='../../public/images/pelota-azul-oscura.png' className='dark-blue-ball' />
-            <img src='../../public/images/pelota-amarilla.png' className='yellow-ball' />
-            <img src='../../public/images/pelota-azul.png' className='blue-ball' />
-            <img src='../../public/images/pelota-celeste.png' className='light-blue-ball' />
-            <img src='../../public/images/pelota-morada-oscura.png' className='dark-purple-ball' />
-            <img src='../../public/images/pelota-magenta.png' className='magent-ball' />
-            <img src='../../public/images/pelota-magenta-pequeña.png' className='magent-small-ball' />
-            <img src='../../public/images/pinky.png' className='pinky-ball' />
+            <img src='/images/fondo-services.png' className='fondo' />
+            <img src='/images/pelota-rosada.png' className='pink-ball' />
+            <img src='/images/pelota-azul-oscura.png' className='dark-blue-ball' />
+            <img src='/images/pelota-amarilla.png' className='yellow-ball' />
+            <img src='/images/pelota-azul.png' className='blue-ball' />
+            <img src='/images/pelota-celeste.png' className='light-blue-ball' />
+            <img src='/images/pelota-morada-oscura.png' className='dark-purple-ball' />
+            <img src='/images/pelota-magenta.png' className='magent-ball' />
+            <img src='/images/pelota-magenta-pequeña.png' className='magent-small-ball' />
+            <img src='/images/pinky.png' className='pinky-ball' />
 
         </section >
     )

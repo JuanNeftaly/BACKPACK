@@ -37,12 +37,12 @@ export const Header = ()=>{
                     </ul>
 
                     <button className="btn-menu" onClick={(showNavBar)}>
-                        <img src="../../../public/images/menu.png" alt="menu" className="icon-menu"/>
+                        <img src="/images/menu.png" alt="menu" className="icon-menu"/>
                     </button>
 
                 {/* EDITS PAGE */}
-                <img src="../../../../images/rectangle-1-purple.png" className="rec-1" alt="rectagle" />
-                <img src="../../../../images/rectangle-2-purple.png" className="rec-2" alt="rectagle" />
+                <img src="/images/rectangle-1-purple.png" className="rec-1" alt="rectagle" />
+                <img src="/images/rectangle-2-purple.png" className="rec-2" alt="rectagle" />
             </nav>
 
             <section className="hero container">
@@ -55,19 +55,19 @@ export const Header = ()=>{
                 </div>     
 
                 {/* FIGURES */}
-                <img src="../../../public/images/figure-1.png" alt="figure" className="figure figure-1" />
-                <img src="../../../public/images/figure-2.png" alt="figure" className="figure figure-2" />
+                <img src="/images/figure-1.png" alt="figure" className="figure figure-1" />
+                <img src="/images/figure-2.png" alt="figure" className="figure figure-2" />
 
                 {/* CIRCLES */}
-                <img src="../../../public/images/bubble-1.png" alt="buble" className="bubble bubble-1" />
-                <img src="../../../public/images/bubble-4.png" alt="buble" className="bubble bubble-4" />
+                <img src="/images/bubble-1.png" alt="buble" className="bubble bubble-1" />
+                <img src="/images/bubble-4.png" alt="buble" className="bubble bubble-4" />
 
-                <img src="../../../public/images/bubble-2.png" alt="buble" className="bubble bubble-2" />
-                <img src="../../../public/images/bubble-3.png" alt="buble" className="bubble bubble-3" />
+                <img src="/images/bubble-2.png" alt="buble" className="bubble bubble-2" />
+                <img src="/images/bubble-3.png" alt="buble" className="bubble bubble-3" />
 
-                <img src="../../../public/images/bubble-5.png" alt="buble" className="bubble bubble-5" />
+                <img src="/images/bubble-5.png" alt="buble" className="bubble bubble-5" />
 
-                <img src="../../../public/images/bubble-5.png" alt="buble" className="bubble bubble-6" />
+                <img src="/images/bubble-5.png" alt="buble" className="bubble bubble-6" />
 
             </section>
 
