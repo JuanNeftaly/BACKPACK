@@ -13,7 +13,7 @@ export const Header = ()=>{
         <div className="div-main">
             <nav className="nav">
                 <div className="nav__logo">
-                    <img src="dist/images/logo.png" alt="logo" className="logo" />
+                    <img src="../../../../images/logo.png" alt="logo" className="logo" />
                     <p className="logo__title">backpack</p>
                 </div>
 
@@ -41,8 +41,8 @@ export const Header = ()=>{
                     </button>
 
                 {/* EDITS PAGE */}
-                <img src="./dist/images/rectangle-1-purple.png" className="rec-1" alt="rectagle" />
-                <img src="./dist/images/rectangle-2-purple.png" className="rec-2" alt="rectagle" />
+                <img src="../../../../images/rectangle-1-purple.png" className="rec-1" alt="rectagle" />
+                <img src="../../../../images/rectangle-2-purple.png" className="rec-2" alt="rectagle" />
             </nav>
 
             <section className="hero container">
