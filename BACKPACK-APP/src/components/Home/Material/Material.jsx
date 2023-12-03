@@ -4,87 +4,87 @@ import { Reporte } from '../Reporte/Reporte';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 
 
-export const Material = ({setBackReport, doc}) => {
+export const Material = ({ setBackReport, doc }) => {
 
-  const{title, cicloPublicacion, annioPublicacion, url, materia} = doc;
+  const { title, cicloPublicacion, annioPublicacion, url, materia } = doc;
 
-  const[fav, setFav] = useState(false);
-  const[countFav, setCountFav] = useState(0);
+  const [fav, setFav] = useState(false);
+  const [countFav, setCountFav] = useState(0);
 
 
-  const[like, setLike] = useState(false);
-  const[countLike, setCountLike] = useState(0);
+  const [like, setLike] = useState(false);
+  const [countLike, setCountLike] = useState(0);
 
   return (
     <div className='material'>
 
-        
+
       <div className="fav__content">
 
-          <figure>
-            <img src="../../../../public/images/pdf.png" alt="pdf-image" />
-          </figure>
+        <figure>
+          <img src="/images/pdf.png" alt="pdf-image" />
+        </figure>
 
-          <div className="fav__info">
-              <h2 className='fav-title'>{title}</h2>
-              <p className='fav__description'>Año: {annioPublicacion}</p>
-              <p className='fav__description'>Materia: {materia}</p>
-              
-              <div className="fav__info--dates">
+        <div className="fav__info">
+          <h2 className='fav-title'>{title}</h2>
+          <p className='fav__description'>Año: {annioPublicacion}</p>
+          <p className='fav__description'>Materia: {materia}</p>
 
-                <p className='dates__cicle'>Ciclo {cicloPublicacion}</p>
-              </div>
+          <div className="fav__info--dates">
 
+            <p className='dates__cicle'>Ciclo {cicloPublicacion}</p>
           </div>
+
+        </div>
       </div>
 
       <div className="fav__interaction">
-            <div className="fav__section" >
+        <div className="fav__section" >
 
-                <div className="fav__section-heart" onClick={()=>{setFav(!fav)}}>
-                  {
-                    fav ? (
-                      <figure>
-                        <img src="../../../../public/images/fav.svg" alt="heart-ico" />
-                        <p className='count'>{countFav + 1}</p>
-                      </figure>
-                    ) : (
-                      <figure>
-                        <img src="../../../../public/images/heart.svg" alt="heart-ico" />
-                        <p className='count'>{countFav}</p>
-                      </figure>
-                    )
-                  }
-                </div>
+          <div className="fav__section-heart" onClick={() => { setFav(!fav) }}>
+            {
+              fav ? (
+                <figure>
+                  <img src="/images/fav.svg" alt="heart-ico" />
+                  <p className='count'>{countFav + 1}</p>
+                </figure>
+              ) : (
+                <figure>
+                  <img src="/images/heart.svg" alt="heart-ico" />
+                  <p className='count'>{countFav}</p>
+                </figure>
+              )
+            }
+          </div>
 
-                <div className="fav__section-like" onClick={()=> {setLike(!like)}}>
-                  {
-                    like ? (
-                        <figure>
-                          <img src="../../../../public/images/addLike.png" className='like-ico' alt="like-ico" />
-                          <p className='count'>{countLike + 1}</p>
-                        </figure>
-                    ) : (
-                      <figure>
-                          <img src="../../../../public/images/like.png" alt="like-ico" className='like-ico'/>
-                          <p className='count'>{countLike}</p>
-                      </figure>
-                    )
-                  }
-                </div>
-        
-            </div>
+          <div className="fav__section-like" onClick={() => { setLike(!like) }}>
+            {
+              like ? (
+                <figure>
+                  <img src="/images/addLike.png" className='like-ico' alt="like-ico" />
+                  <p className='count'>{countLike + 1}</p>
+                </figure>
+              ) : (
+                <figure>
+                  <img src="/images/like.png" alt="like-ico" className='like-ico' />
+                  <p className='count'>{countLike}</p>
+                </figure>
+              )
+            }
+          </div>
 
-            <div className="fav__options">
+        </div>
 
-              <a href={url} className='ico-fav-container' to='/oneMateria' target='_blank'>
-                <img src="../../../../public/images/send-pdf.svg" alt="descarga" />
-              </a>
+        <div className="fav__options">
 
-              <button to='/reporte' className='ico-fav-container' onClick={()=>{setBackReport(true)}}>
-                <img src="../../../../public/images/report.svg" alt="descarga" />
-              </button>
-            </div>
+          <a href={url} className='ico-fav-container' to='/oneMateria' target='_blank'>
+            <img src="/images/send-pdf.svg" alt="descarga" />
+          </a>
+
+          <button to='/reporte' className='ico-fav-container' onClick={() => { setBackReport(true) }}>
+            <img src="/images/report.svg" alt="descarga" />
+          </button>
+        </div>
       </div>
 
     </div>
