@@ -1,12 +1,12 @@
 import axios from "axios";
 
-const url = `http://localhost:3500/api`;
+const baseurl = import.meta.env.VITE_API_URL;
 
 export const adminLoginRequest = async (user) => {
     try {
 
         // Realizar solicitud de login para obtener el token
-        const response = await axios.post(`${url}/auth/login`, user, {
+        const response = await axios.post(`${baseurl}/auth/login`, user, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -15,7 +15,7 @@ export const adminLoginRequest = async (user) => {
         const tokensito = response.data.token;
 
         // Realizar solicitud a whoami para obtener información del usuario
-        const whoResponse = await axios.get(`${url}/auth/whoami`, {
+        const whoResponse = await axios.get(`${baseurl}/auth/whoami`, {
             headers: {
                 'Authorization': 'Bearer ' + tokensito
             }
