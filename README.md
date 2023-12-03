@@ -14,9 +14,9 @@
 
 ### 🌟 Admin de prueba
 
-**Usuario:** armando.arguera@gmail.com
+**Usuario:** juancastellanos376@gmail.com
 
-**Contraseña:** 12345678Aa
+**Contraseña:** 1234
 
 ### 🌟 Usuarios de prueba
 
