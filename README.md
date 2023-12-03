@@ -40,7 +40,7 @@
 
 <!-- TODO: CAMBIAR URL -->
 
-Para ingresar a los servicios de BackPack haga click en el siguiente enlace. [BackPack](https://url/ejemplo).
+Para ingresar a los servicios de BackPack haga click en el siguiente enlace. [BackPack](https://backpack-pearl.vercel.app/).
 Este enlace lo redirigira a la página de bienvenida de nuestra aplicación, donde usted podrá estar al tanto de todas las novedades.
 
 Una vez hecho esto, dando click en el boton que dice INICIAR, esto lo redigira al login de usuarios donde usted podra probar las credenciales de prueba y ver todas las caracteristicas que la aplicacion tiene para ofrecer. Tambien puede registrar un nuevo usuario.
