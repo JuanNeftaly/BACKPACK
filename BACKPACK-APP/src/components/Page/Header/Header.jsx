@@ -13,7 +13,7 @@ export const Header = ()=>{
         <div className="div-main">
             <nav className="nav">
                 <div className="nav__logo">
-                    <img src="../../../../images/logo.png" alt="logo" className="logo" />
+                    <img src="../../../images/logo.png" alt="logo" className="logo" />
                     <p className="logo__title">backpack</p>
                 </div>
 
@@ -32,7 +32,7 @@ export const Header = ()=>{
                         </li>
 
                         <button className="btn-close" onClick={showNavBar}>
-                            <img src="../../../public/images/menu.png" alt="menu" className="icon-menu"/>
+                            <img src="/images/menu.png" alt="menu" className="icon-menu"/>
                         </button>
                     </ul>
 
