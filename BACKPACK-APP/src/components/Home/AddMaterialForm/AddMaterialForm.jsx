@@ -17,7 +17,7 @@ export const AddMaterialForm = ({setBackAdd}) => {
     <div className='add-material-container'>
 
         <button className='close-add'onClick={()=>{setBackAdd(false)}}>
-            <img src="../../../../public/images/close.svg" alt="close" />
+            <img src="/images/close.svg" alt="close" />
         </button>
 
         <form action="/tu/endpoint/de/destino" method="post" enctype="multipart/form-data" className='form-mat'

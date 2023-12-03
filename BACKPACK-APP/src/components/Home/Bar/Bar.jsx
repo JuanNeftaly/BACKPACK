@@ -25,7 +25,7 @@ export const Bar = ({activeCamp}) => {
         <NavLink to={'/home'} className='navMat-link' >
             <button className='btn btn-active' ref={active}>
                 <figure>
-                    <img src="./../../public/images/mat.svg" alt="" />
+                    <img src="/images/mat.svg" alt="" />
                 </figure>
 
                 <p>
@@ -37,7 +37,7 @@ export const Bar = ({activeCamp}) => {
         <NavLink to={'/materiales'} className='navMat-link'>
             <button className='btn' ref={activeSecond}>
                 <figure>
-                    <img src="./../../public/images/mat-2.svg" alt="" />
+                    <img src="/images/mat-2.svg" alt="" />
                 </figure>
 
                 <p>

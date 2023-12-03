@@ -4,7 +4,7 @@ export const Load = () => {
   return (
     <div className='load'>
        <figure>
-            <img src="../../../../public/images/burbuja.png" alt="burbuja" className='burbuja' />
+            <img src="/images/burbuja.png" alt="burbuja" className='burbuja' />
         </figure> 
     </div>
   )

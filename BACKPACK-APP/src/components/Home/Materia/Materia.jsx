@@ -27,7 +27,7 @@ export const Materia = ({materia, setNameMateria}) => {
                         </p>
 
                         <figure className="cta__img">
-                            <img src="../../../../../public/images/white-arrow.svg" alt="white-arrow"/>
+                            <img src="/images/white-arrow.svg" alt="white-arrow"/>
                         </figure>
                     </NavLink>
                 </button>   
